@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Lidong Xie — MSc Mathematics student at the University of Luxembourg. Education, Python projects, and professional experience.">
+  <meta property="og:title" content="Lidong Xie — Personal CV">
+  <meta property="og:description" content="Mathematics, quantitative finance, and Python. Education, projects, and professional experience.">
+  <meta property="og:type" content="website">
+  <title>Lidong Xie — Personal CV</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="site-name" href="#top">Lidong Xie</a>
+      <nav aria-label="Main navigation">
+        <a href="#about" aria-current="location">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container" id="main">
+    <div class="profile" id="top">
+      <div>
+        <h1>Lidong Xie</h1>
+        <p class="role">MSc Mathematics student</p>
+        <p class="affiliation">Financial Mathematics · University of Luxembourg</p>
+        <p class="location">Luxembourg</p>
+        <div class="profile-links" aria-label="Contact and CV">
+          <a href="mailto:0260797713@uni.lu">0260797713@uni.lu</a>
+          <a href="https://github.com/XIE-LIDONG" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="Lidong-Xie-CV.pdf" download="Lidong-Xie-CV.pdf">Download CV (PDF)</a>
+        </div>
+      </div>
+      <img class="portrait" src="portrait.jpg" width="120" height="120" alt="Lidong Xie" fetchpriority="high">
+    </div>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p>I’m a mathematics master’s student with a background in Data Science and Big Data Technology. My interests include financial risk, option pricing, and building useful Python applications. I also bring experience in international sales and business analytics.</p>
+      <p class="skills"><strong>Technical skills:</strong> Python, NumPy, Pandas, Streamlit, Selenium, OpenCV, YOLO11.</p>
+      <p class="skills"><strong>Methods:</strong> Monte Carlo simulation, GARCH, Value-at-Risk, time series analysis, and numerical option pricing.</p>
+      <p class="skills"><strong>English:</strong> IELTS overall band score 7.0.</p>
+    </section>
+    <section id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <article class="entry">
+        <div class="entry-heading"><h3>Master in Mathematics</h3><span class="date">2026 – Present</span></div>
+        <p>University of Luxembourg, Luxembourg</p>
+        <p class="secondary">Financial Mathematics track</p>
+      </article>
+      <article class="entry">
+        <div class="entry-heading"><h3>BSc in Data Science and Big Data Technology</h3><span class="date">2020 – 2024</span></div>
+        <p>Ningbo University of Technology, China</p>
+        <p class="secondary">Cumulative average: 80.25 / 100 · GPA: 3.07</p>
+        <p class="secondary course-list">Selected coursework: Nonparametric Statistics (92/100), Advanced Mathematics A I (90/100), Data Structures and Algorithms (85/100), Time Series Analysis (84/100), C Language Programming (95/100).</p>
+      </article>
+      <h3 class="subheading">Additional learning & recognition</h3>
+      <ul class="compact-list">
+        <li><strong>Harvard University online course:</strong> Data Science: Probability (PH125.3x), 100/100, 2025.</li>
+        <li><strong>LSE online course:</strong> Mathematics 1, Part 2 — integral calculus, algebra, and applications (MT105b), 98/100, 2025.</li>
+        <li>Freshman Scholarship (2020) and First-Class Scholarship for Postgraduate Admission (2024), Ningbo University of Technology.</li>
+        <li>Vice Minister, University Student Security Committee, 2022.</li>
+      </ul>
+    </section>
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <article class="project">
+        <h3>Crypto Volatility & VaR Dashboard</h3>
+        <p>An interactive dashboard for Bitcoin and Ethereum risk. Fits GARCH(1,1) models, estimates normal and t-distribution Value-at-Risk, and evaluates rolling volatility forecasts with backtesting and MAE.</p>
+        <p class="secondary">Python · Streamlit · GARCH · Time series analysis</p>
+        <div class="project-links"><a href="https://cryptocurrency-volatility-forecasting-dynamic-var-risk-managem.streamlit.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Crypto Volatility dashboard live app">Live app</a><a href="https://github.com/XIE-LIDONG/Cryptocurrency-Volatility-Forecasting-Dynamic-VaR-Risk-Management" target="_blank" rel="noopener noreferrer" aria-label="View Crypto Volatility dashboard source code">Source code</a></div>
+      </article>
+      <article class="project">
+        <h3>Option Pricing Analytics Engine</h3>
+        <p>A dashboard for European and American options with seven pricing algorithms, including Black–Scholes, Monte Carlo, tree models, finite difference methods, and Longstaff–Schwartz. Includes convergence comparisons and 95% confidence intervals.</p>
+        <p class="secondary">Python · NumPy · Pandas · Streamlit · Numerical methods</p>
+        <div class="project-links"><a href="https://option-pricing-tdkclhc4zgvbkpjdwepb47.streamlit.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Option Pricing engine live app">Live app</a><a href="https://github.com/XIE-LIDONG/Option-Pricing" target="_blank" rel="noopener noreferrer" aria-label="View Option Pricing engine source code">Source code</a></div>
+      </article>
+      <article class="project">
+        <h3>Real-Time Mask Detection</h3>
+        <p>A fine-tuned YOLO11 model for detecting correctly worn, incorrectly worn, and missing face masks. Integrates OpenCV video capture with a Streamlit interface and adjustable confidence thresholds.</p>
+        <p class="secondary">Python · YOLO11 · OpenCV · Streamlit</p>
+        <div class="project-links"><a href="https://github.com/XIE-LIDONG/Mask-Detection" target="_blank" rel="noopener noreferrer" aria-label="View Mask Detection source code">Source code</a></div>
+      </article>
+      <article class="project">
+        <h3>Google Maps Data Crawler</h3>
+        <p>A business research tool that collects company names, addresses, and phone numbers from location and keyword searches. Includes automated scrolling, deduplication, progress tracking, and Excel export.</p>
+        <p class="secondary">Python · Selenium · Streamlit · Excel</p>
+        <div class="project-links"><a href="https://github.com/XIE-LIDONG/Googlemaps-searching-tool" target="_blank" rel="noopener noreferrer" aria-label="View Google Maps Data Crawler source code">Source code</a></div>
+      </article>
+      <article class="project">
+        <h3>Word Document Translator</h3>
+        <p>A DOCX translation tool supporting eight languages while preserving paragraph and table structure. Uses configurable batch processing and multithreading, with live progress and translated-file downloads.</p>
+        <p class="secondary">Python · python-docx · Translation API · Streamlit</p>
+        <div class="project-links"><a href="https://docx-translator-app-id89euijvysspmvapptarhe.streamlit.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Word Document Translator live app">Live app</a><a href="https://github.com/XIE-LIDONG/docx-translator-app" target="_blank" rel="noopener noreferrer" aria-label="View Word Document Translator source code">Source code</a></div>
+      </article>
+      <article class="project">
+        <h3>Bilingual Truck Inquiry Platform</h3>
+        <p>An Arabic and English customer inquiry application with right-to-left layout support. Matches vehicle preferences to technical specification PDFs and sends sales notifications through Feishu webhooks.</p>
+        <p class="secondary">Python · Streamlit · Arabic RTL · Feishu API</p>
+        <div class="project-links"><a href="https://purchase-intention-nq6c2k2pt5rn9yvv8tel6t.streamlit.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Truck Inquiry Platform live app">Live app</a><a href="https://github.com/XIE-LIDONG/truck-customer-information-collect" target="_blank" rel="noopener noreferrer" aria-label="View Truck Inquiry Platform source code">Source code</a></div>
+      </article>
+      <article class="project">
+        <h3>Truck Sales Analytics Dashboard</h3>
+        <p>An interactive sales reporting dashboard for commercial vehicle showrooms. Visualises sales trends, vehicle demand, customer traffic, and consultant performance to support business decisions.</p>
+        <p class="secondary">Python · Pandas · Matplotlib · Streamlit</p>
+        <div class="project-links"><a href="https://truck-sales-data-dashboard.streamlit.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Truck Sales Dashboard live app">Live app</a><a href="https://github.com/XIE-LIDONG/Truck-Sales-Data-Dashboard" target="_blank" rel="noopener noreferrer" aria-label="View Truck Sales Dashboard source code">Source code</a></div>
+      </article>
+    </section>
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <article class="entry">
+        <div class="entry-heading"><h3>International Sales Specialist</h3><span class="date">Jul 2025 – Feb 2026</span></div>
+        <p class="secondary">Commercial vehicles, FAW brand · Riyadh, Saudi Arabia</p>
+        <ul><li>Developed enterprise clients in transportation, engineering, and logistics.</li><li>Built Python tools for business lead collection, bilingual customer inquiries, and sales analytics.</li><li>Created document translation workflows for cross-border business communication.</li></ul>
+      </article>
+      <article class="entry">
+        <div class="entry-heading"><h3>English Live Stream Host & Sales Manager</h3><span class="date">Nov 2024 – Jun 2025</span></div>
+        <p class="secondary">TikTok · US market focus</p>
+        <ul><li>Hosted English-language broadcasts for cultural and ceramic products and managed a live streaming team.</li><li>Achieved average monthly sales revenue of $22,000.</li><li>Led content planning, market research, and customer relationships from initial inquiries to after-sales support.</li></ul>
+      </article>
+    </section>
+    <footer><span>© <span id="year">2026</span> Lidong Xie</span><a href="#top">Back to top</a></footer>
+  </main>
+
+
+</body>
+</html>
